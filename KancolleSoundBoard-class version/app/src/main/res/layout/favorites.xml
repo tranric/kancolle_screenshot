@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fc550">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtList"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="List:" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:id="@+id/btnreturn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/btnClear"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/btnreturn"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnnewname" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Name"
+        android:id="@+id/btnnewname"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtList"
+        android:fillViewport="false"
+        android:layout_above="@+id/tbonoff">
+        <LinearLayout             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtclicks"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:text="Stuff Clicked:0000000\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\nClicked:\n" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="toggle"
+        android:id="@+id/tbonoff"
+        android:layout_above="@+id/btnnewname"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnnewname"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use name on startup?"
+        android:id="@+id/txttoaster"
+        android:layout_above="@+id/btnnewname"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnnewname"
+        android:layout_alignTop="@+id/tbonoff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

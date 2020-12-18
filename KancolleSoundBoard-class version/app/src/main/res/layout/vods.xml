@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vod"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:id="@+id/btnback"
+        android:layout_gravity="center_vertical"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        ads:adSize="BANNER"
+        android:id="@+id/adView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="                                                                                                              "
+        android:id="@+id/Adremove"
+        android:background="@null"
+        android:layout_above="@+id/adView"
+        android:layout_toEndOf="@+id/btnback"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/poi1"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/poi2a"
+        android:layout_below="@+id/btnback"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/Adremove" />
+
+    <ImageButton
+        android:id="@+id/poi2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/poi8a"
+        android:layout_below="@+id/btnback"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/Adremove"
+        android:layout_toEndOf="@+id/poi1" />
+
+</RelativeLayout>

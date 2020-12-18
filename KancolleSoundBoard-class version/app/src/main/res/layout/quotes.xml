@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="190dp"
+        android:layout_height="300dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/KancolleID"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnintroduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction" />
+
+        <Button
+            android:id="@+id/btnlibrary_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library_intro" />
+
+        <Button
+            android:id="@+id/btnsecretary1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secretary1" />
+
+        <Button
+            android:id="@+id/btnsecretary2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secretary2" />
+
+        <Button
+            android:id="@+id/btnsecretary3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secretary3" />
+
+        <Button
+            android:id="@+id/btnsecretary_married"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secretary_married" />
+
+        <Button
+            android:id="@+id/btnwedding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wedding" />
+
+        <Button
+            android:id="@+id/btnshow_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_player" />
+
+        <Button
+            android:id="@+id/btnjoining_a_fleet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/joining_a_fleet" />
+
+        <Button
+            android:id="@+id/btnequipment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/equipment1" />
+
+        <Button
+            android:id="@+id/btnequipment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/equipment2" />
+
+        <Button
+            android:id="@+id/btnequipment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/equipment3" />
+
+        <Button
+            android:id="@+id/btnsupply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/supply" />
+
+        <Button
+            android:id="@+id/btndocking_minor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/docking_minor" />
+
+        <Button
+            android:id="@+id/btndocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/docking" />
+
+        <Button
+            android:id="@+id/btnship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ship" />
+
+        <Button
+            android:id="@+id/btnreturn_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/return_from" />
+
+        <Button
+            android:id="@+id/btnstart_a_sortie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_a_sortie" />
+
+        <Button
+            android:id="@+id/btnbattle_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/battle_start" />
+
+        <Button
+            android:id="@+id/btnattack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/attack" />
+
+        <Button
+            android:id="@+id/btnnight_battle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/night_battle" />
+
+        <Button
+            android:id="@+id/btnnight_attack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/night_attack" />
+
+        <Button
+            android:id="@+id/btnMVP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MVP" />
+
+        <Button
+            android:id="@+id/btnminor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minor1" />
+
+        <Button
+            android:id="@+id/btnminor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minor2" />
+
+        <Button
+            android:id="@+id/btnmoderately"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moderately" />
+
+        <Button
+            android:id="@+id/btnsunk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sunk" />
+
+        <Button
+            android:id="@+id/btninstant_repair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instant_repair" />
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnidle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idle"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kancolle:"
+        android:id="@+id/KancolleID"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:id="@+id/btnreturn"
+        android:layout_below="@+id/btnidle"
+        android:layout_alignEnd="@+id/imgkancolle"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KancolleID"
+        android:src="@drawable/fubuki"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_toEndOf="@+id/scrollView"
+        android:id="@+id/imgkancolle" />
+
+
+</RelativeLayout>
